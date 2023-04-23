@@ -5,18 +5,13 @@
         static void Main(string[] args)
         {
 
-            {
-                InsertBetween list = new InsertBetween();
+                DeleteElement list = new DeleteElement();
                 list.Insert(70);
-                //list.insert(40);
+                list.Insert(40);
                 list.Insert(30);
                 list.Insert(56);
+                list.Remove(40);
                 list.Print();
-                list.InBetween(40, 30);
-                list.Print();
-            }
-
-
         }
     }
 }
