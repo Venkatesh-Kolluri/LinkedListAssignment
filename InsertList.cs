@@ -32,6 +32,7 @@ namespace LinkedListAssignment
                 head = n;
             }
         }
+
         public void Print()
         {
             Node temp = head;
