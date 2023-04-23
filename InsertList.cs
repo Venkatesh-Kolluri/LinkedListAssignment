@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -42,6 +42,16 @@ namespace LinkedListAssignment
                 temp = temp.next;
             }
         }
+        static void Main(string[] args)
+        {
+            InsertList list = new InsertList();
+            list.Insert(56);
+            list.Insert(30);
+            list.Insert(70);
+            list.Print();
+
+        }
 
     }
 }
+*/

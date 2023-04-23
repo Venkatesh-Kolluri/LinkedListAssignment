@@ -4,12 +4,16 @@
     {
         static void Main(string[] args)
         {
-            InsertList list = new InsertList();
-                list.Insert(56);
-                list.Insert(30);
+            
+                PopElement list = new PopElement();
                 list.Insert(70);
+                list.Insert(40);
+                list.Insert(30);
+                list.Insert(56);
+                list.Pop();
                 list.Print();
 
+            
         }
     }
 }
